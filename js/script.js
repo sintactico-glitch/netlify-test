@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $('#example').on('click', 'button.switch', function(){
-        $.ajax('result222.html', {
+        $.ajax('result.html', {
             beforeSend: function(){
                 $('#status').text('Cargando..');
             }
