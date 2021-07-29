@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: purple;
+}
+
+#example,
+#result, 
+#status {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 2rem;
+}
+
+#example,
+#status {
+    background-color: aqua;
+}
+
+#status{
+    height: 50px;
+}
+
+#example{
+    display: flex;
+}
+
+#result{
+    background-color: white;
+}
+
+#result, 
+#status {
+    padding: 10px;
+}
+
+.switch{
+    width: 150px;
+    border: none;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    margin: auto 0;
+    display: block;
+    padding: 10px;
+    cursor: pointer;
+}
